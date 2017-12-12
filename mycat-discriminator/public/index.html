@@ -1,0 +1,39 @@
+<html lang="ja">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width,initial-scale=1">
+  <title>猫判別機</title>
+  <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
+  <style type="text/css">
+.upload-wrapper {
+  position: relative;
+  width: 200px;
+  height: 200px;
+  border: 3px solid black;
+  text-align: center;
+  vertical-align: middle;
+  display:table-cell;
+}
+#preview {
+  width: 100%;
+  height: 100%;
+  position: absolute;
+  top: 0px;
+  left: 0px;
+}
+  </style>
+</head>
+
+<body>
+  <div class="upload-wrapper">
+    <label for="upload">
+      <i id="icon-camera" class="fa fa-camera fa-5x" aria-hidden="true"></i>
+      <img id="preview" />
+    </label>
+    <input id="upload" type="file" name="upload" accept="image/*" style="display:none;" />
+  </div>
+  <div id="result">画像が選択されていません</div>
+<script type="text/javascript" src="js/6a0038d27019b06d7569.index.min.js"></script></body>
+
+</html>

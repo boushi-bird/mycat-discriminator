@@ -1,0 +1,30 @@
+{
+  "name": "mycat-discriminator",
+  "version": "1.0.0",
+  "description": "",
+  "main": "webpack.config.js",
+  "engines": {
+    "node": ">=6.0.0",
+    "npm": ">=5.0.0"
+  },
+  "scripts": {
+    "build": "webpack",
+    "dev": "DEBUG=true webpack-dev-server"
+  },
+  "author": "boushi-bird <boushi-bird@users.noreply.github.com>",
+  "license": "ISC",
+  "private": true,
+  "dependencies": {
+    "whatwg-fetch": "^2.0.3"
+  },
+  "devDependencies": {
+    "babel-core": "^6.26.0",
+    "babel-loader": "^6.4.1",
+    "babel-plugin-transform-runtime": "^6.23.0",
+    "babel-preset-es2015": "^6.24.1",
+    "clean-webpack-plugin": "^0.1.17",
+    "html-webpack-plugin": "^2.30.1",
+    "webpack": "^3.10.0",
+    "webpack-dev-server": "^2.9.7"
+  }
+}
