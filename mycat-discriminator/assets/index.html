@@ -6,10 +6,13 @@
   <title>猫判別機</title>
   <link href="https://maxcdn.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <style type="text/css">
+.wrapper {
+  padding: 60px 40px;
+}
 .upload-wrapper {
   position: relative;
-  width: 200px;
-  height: 200px;
+  width: 300px;
+  height: 300px;
   border: 3px solid black;
   text-align: center;
   vertical-align: middle;
@@ -26,14 +29,16 @@
 </head>
 
 <body>
-  <div class="upload-wrapper">
-    <label for="upload">
-      <i id="icon-camera" class="fa fa-camera fa-5x" aria-hidden="true"></i>
-      <img id="preview" />
-    </label>
-    <input id="upload" type="file" name="upload" accept="image/*" style="display:none;" />
+  <div class="wrapper">
+    <div class="upload-wrapper">
+      <label for="upload">
+        <i id="icon-camera" class="fa fa-camera fa-5x" aria-hidden="true"></i>
+        <img id="preview" />
+      </label>
+      <input id="upload" type="file" name="upload" accept="image/*" style="display:none;" />
+    </div>
+    <div id="result">画像が選択されていません</div>
   </div>
-  <div id="result">画像が選択されていません</div>
 </body>
 
 </html>
